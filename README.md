@@ -20,8 +20,8 @@ Demonstrar a **pipeline completa de dados** de franquias do setor pet, desde a c
 
 ```mermaid
 graph TD
-    A[[petstore-scraping<br>Bronze]] --> B[[petstore-etl<br>Silver e Gold]]
-    B --> C[[petstore-bi<br>BI e Dashboards]]
+    A[petstore-scraping<br>Bronze] --> B[petstore-etl<br>Silver e Gold]
+    B --> C[petstore-bi<br>BI e Dashboards]
 ```
 
 ---
