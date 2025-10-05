@@ -37,7 +37,7 @@ graph TD
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
 | [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) | Coleta de Dados de Franquias | 🟤 Bronze | Selenium, BeautifulSoup4, lxml, pandas |
 | [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, Nominatim |
-| [`petstore-bi`](https://github.com/rafa-trindade/petstore-etl) | BIo e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
+| [`petstore-bi`](https://github.com/rafa-trindade/petstore-etl) | BI e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
 
 ---
 
