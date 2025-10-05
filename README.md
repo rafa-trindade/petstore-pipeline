@@ -66,7 +66,8 @@ Cada etapa gera logs detalhados de execução:
 * **petstore-etl:** transformação e enriquecimento
 * **petstore-bi:** geração de dashboards e gráficos
 
-🔗 [Exemplo de logs completos](https://github.com/rafa-trindade/petstore-scraping#%EF%B8%8F-log-de-execucao)
+🔗 [Log petstore-scraping](https://github.com/rafa-trindade/petstore-scraping#%EF%B8%8F-log-de-execucao)
+🔗 [Log petstore-etl](https://github.com/rafa-trindade/petstore-etl#%EF%B8%8F-log-de-execucao)
 
 ---
 
