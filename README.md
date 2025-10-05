@@ -1,4 +1,9 @@
 # 🐾 PetStore Pipeline
+[![Live Badge](https://img.shields.io/badge/-Live-2B5482?style=flat-square&logo=streamlit&logoColor=fff)](https://bi-petstore.streamlit.app/)
+[![Projeto Badge](https://img.shields.io/badge/-petstore--scraping-2B5482?style=flat-square&logo=github&logoColor=fff)](https://github.com/rafa-trindade/petstore-scraping)
+[![Projeto Badge](https://img.shields.io/badge/-petstore--etl-2B5482?style=flat-square&logo=github&logoColor=fff)](https://github.com/rafa-trindade/petstore-etl)
+[![Projeto Badge](https://img.shields.io/badge/-petstore--bi-2B5482?style=flat-square&logo=github&logoColor=fff)](https://github.com/rafa-trindade/petstore-bi)
+
 
 Projeto central de **análise e visualização de dados** do setor pet, integrando os repositórios:
 
