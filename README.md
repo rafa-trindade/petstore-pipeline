@@ -25,7 +25,7 @@ Demonstrar a **pipeline completa de dados** de franquias do setor pet, desde a c
 
 ```mermaid
 graph TD
-    A[petstore-scraping<br>Bronze] --> B[petstore-etl<br>Silver e Gold]
+    A[petstore-scraping<br>Bronze] --> B[petstore-etl<br>Silver e Gold<br>PostgreSQL]
     B --> C[petstore-bi<br>BI e Dashboards]
 ```
 
@@ -36,8 +36,8 @@ graph TD
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
 | [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) | Coleta de Dados de Franquias | 🟤 Bronze | Selenium, BeautifulSoup4, lxml, pandas |
-| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, Nominatim |
-| [`petstore-bi`](https://github.com/rafa-trindade/petstore-etl) | BI e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
+| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, numpy, tabulate, SQLAlchemy, psycopg2-binary, python-dotenv |
+| [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) | BI e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
 
 ---
 
