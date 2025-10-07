@@ -5,13 +5,17 @@
 [![Projeto Badge](https://img.shields.io/badge/-petstore--bi-2B5482?style=flat-square&logo=github&logoColor=fff)](https://github.com/rafa-trindade/petstore-bi)
 
 
-Projeto central de **análise e visualização de dados** do setor pet, integrando os repositórios:
+Este repositório serve como **hub do projeto**, documentando o fluxo de dados completo e fornecendo uma visão consolidada do pipeline.
 
 * [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) → coleta de dados (Bronze)
 * [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) → tratamento e enriquecimento (Silver e Gold)
 * [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) → dashboards e análises (BI)
 
-Este repositório serve como **hub do projeto**, documentando o fluxo de dados completo e fornecendo uma visão consolidada do pipeline.
+O `petstore-pipeline` demonstra uma **pipeline completa de dados**, do scraping à visualização, mostrando competências em:
+
+* Engenharia de Dados
+* ETL e Integração de Dados
+* Business Intelligence
 
 ---
 
@@ -43,11 +47,13 @@ graph TD
 
 ## 🏪 Redes Suportadas
 
-Atualmente, os dados abrangem as seguintes redes:
+Atualmente, o projeto coleta dados das seguintes redes nacionais para estudo:
 
 * **Petz**
 * **Cobasi**
-* **Petlove**
+* **Pop Pet Center**
+* **Petland**
+
 
 ---
 
@@ -55,12 +61,18 @@ Atualmente, os dados abrangem as seguintes redes:
 
 O projeto utiliza um conjunto de ferramentas para automação, tratamento e análise de dados:
 
-* **Python** → linguagem principal do pipeline
-* **pandas** → manipulação de DataFrames
-* **Selenium / BeautifulSoup4 / lxml** → scraping
-* **brazilcep / Nominatim** → enriquecimento de dados geográficos
-* **Streamlit / Plotly** → dashboards interativos
-
+* [**Python**](https://www.python.org/) → linguagem principal do pipeline
+* [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
+* [**Selenium**](https://pypi.org/project/selenium/) → automação de navegação e captura de páginas dinâmicas  
+* [**BeautifulSoup4**](https://pypi.org/project/beautifulsoup4/) → parsing e extração de informações de HTML  
+* [**lxml**](https://pypi.org/project/lxml/) → processamento rápido de HTML/XML  
+* [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
+* [**SQLAlchemy**](https://pypi.org/project/SQLAlchemy/) → conexão e manipulação de bancos de dados SQL de forma programática  
+* [**psycopg2-binary**](https://pypi.org/project/psycopg2-binary/) → driver PostgreSQL para Python  
+* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
+* [**plotly**](https://pypi.org/project/plotly/) → visualizações interativas
+* [**streamlit**](https://pypi.org/project/streamlit/) → criação de dashboards web
+* [**matplotlib**](https://pypi.org/project/matplotlib/) → gráficos estáticos
 ---
 
 ## 🖥️ Log de Execução
@@ -85,12 +97,4 @@ Este repositório serve como **apresentação do projeto**. Ele contém:
 * Screenshots e visualizações dos dashboards
 * Descrição detalhada de cada camada da arquitetura de dados
 
----
 
-## 📌 Conclusão
-
-O `petstore-pipeline` demonstra uma **pipeline completa de dados**, do scraping à visualização, mostrando competências em:
-
-* Engenharia de Dados
-* ETL e Integração de Dados
-* Business Intelligence e Dashboards
