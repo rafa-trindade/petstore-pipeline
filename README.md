@@ -19,7 +19,7 @@ O `petstore-pipeline` demonstra uma **pipeline completa de dados**, do scraping 
 
 ---
 
-## 📌 Objetivo;
+## 📌 Objetivo:
 
 Demonstrar a **pipeline completa de dados** de franquias do setor pet, desde a coleta bruta até a visualização em dashboards interativos.
 
