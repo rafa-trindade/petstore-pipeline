@@ -19,13 +19,13 @@ O `petstore-pipeline` demonstra uma **pipeline completa de dados**, do scraping 
 
 ---
 
-## 📌 Objetivo
+## 📌 Objetivo;
 
 Demonstrar a **pipeline completa de dados** de franquias do setor pet, desde a coleta bruta até a visualização em dashboards interativos.
 
 ---
 
-## 🧩 Fluxo de Dados
+## 🧩 Fluxo de Dados:
 
 ```mermaid
 graph TD
@@ -35,7 +35,7 @@ graph TD
 
 ---
 
-## 📊 Estrutura do Projeto Final
+## 📊 Estrutura do Projeto Final:
 
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-## 🏪 Redes Suportadas
+## 🏪 Redes Analisadas:
 
 Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
@@ -55,7 +55,7 @@ Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
 ---
 
-## ⚙️ Tecnologias e Bibliotecas
+## ⚙️ Tecnologias e Bibliotecas:
 
 O projeto utiliza um conjunto de ferramentas para automação, tratamento e análise de dados:
 
@@ -73,7 +73,7 @@ O projeto utiliza um conjunto de ferramentas para automação, tratamento e aná
 * [**matplotlib**](https://pypi.org/project/matplotlib/) → gráficos estáticos
 ---
 
-## 🖥️ Log de Execução
+## 🖥️ Log de Execução:
 
 Cada etapa gera logs detalhados de execução:
 
@@ -86,11 +86,11 @@ Cada etapa gera logs detalhados de execução:
 
 ---
 
-## 🔗 Organização do Portfólio
+## 🔗 Organização do Portfólio:
 
 Este repositório serve como **apresentação do projeto**. Ele contém:
 
-* Diagramas do pipeline
+* Diagramas do Pipeline
 * Links para os repositórios individuais
 * Descrição detalhada de cada camada da arquitetura de dados
 
