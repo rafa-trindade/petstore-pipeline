@@ -47,13 +47,11 @@ graph TD
 
 ## 🏪 Redes Suportadas
 
-Atualmente, o projeto coleta dados das seguintes redes nacionais para estudo:
+Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
-* **Petz**
 * **Cobasi**
-* **Pop Pet Center**
 * **Petland**
-
+* **Petz**
 
 ---
 
@@ -81,7 +79,7 @@ Cada etapa gera logs detalhados de execução:
 
 * **petstore-scraping:** coleta de dados brutos
 * **petstore-etl:** transformação e enriquecimento
-* **petstore-bi:** geração de dashboards e gráficos
+* **petstore-bi:** eda, tratamento de dados, análise e BI
 
 🔗 [log petstore-scraping](https://raw.githubusercontent.com/rafa-trindade/petstore-scraping/refs/heads/main/logs/log.txt)
 🔗 [log petstore-etl](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
@@ -94,7 +92,6 @@ Este repositório serve como **apresentação do projeto**. Ele contém:
 
 * Diagramas do pipeline
 * Links para os repositórios individuais
-* Screenshots e visualizações dos dashboards
 * Descrição detalhada de cada camada da arquitetura de dados
 
 
