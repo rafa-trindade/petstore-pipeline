@@ -35,7 +35,7 @@ graph TD
 
 ---
 
-## 📊 Estrutura do Projeto Final:
+## 📊 Estrutura Geral do Projeto:
 
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
@@ -57,20 +57,23 @@ Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
 ## ⚙️ Tecnologias e Bibliotecas:
 
-O projeto utiliza um conjunto de ferramentas para automação, tratamento e análise de dados:
+O projeto utiliza um conjunto de ferramentas para automação, requisição, tratamento e análise de dados:
 
-* [**Python**](https://www.python.org/) → linguagem principal do pipeline
-* [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
-* [**Selenium**](https://pypi.org/project/selenium/) → automação de navegação e captura de páginas dinâmicas  
-* [**BeautifulSoup4**](https://pypi.org/project/beautifulsoup4/) → parsing e extração de informações de HTML  
-* [**lxml**](https://pypi.org/project/lxml/) → processamento rápido de HTML/XML  
+* [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares
+* [**Selenium**](https://pypi.org/project/selenium/) → automação de navegação e interação com páginas dinâmicas  
+* [**BeautifulSoup4**](https://pypi.org/project/beautifulsoup4/) → extração e análise de conteúdo HTML  
+* [**lxml**](https://pypi.org/project/lxml/) → parser rápido e eficiente para HTML e XML
 * [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
+* [**tabulate**](https://pypi.org/project/tabulate/) → exibição de tabelas no terminal de forma legível  
 * [**SQLAlchemy**](https://pypi.org/project/SQLAlchemy/) → conexão e manipulação de bancos de dados SQL de forma programática  
 * [**psycopg2-binary**](https://pypi.org/project/psycopg2-binary/) → driver PostgreSQL para Python  
 * [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
 * [**plotly**](https://pypi.org/project/plotly/) → visualizações interativas
 * [**streamlit**](https://pypi.org/project/streamlit/) → criação de dashboards web
 * [**matplotlib**](https://pypi.org/project/matplotlib/) → gráficos estáticos
+* [**tabulate**](https://pypi.org/project/tabulate/) → exibição de dados em formato de tabela no terminal ou relatórios  
+
+O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
 ---
 
 ## 🖥️ Log de Execução:
