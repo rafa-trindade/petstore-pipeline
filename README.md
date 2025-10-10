@@ -50,8 +50,11 @@ graph TD
 Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
 * **Cobasi**
+* **Pet Camp**
 * **Petland**
+* **Petlove**
 * **Petz**
+* **Pop Pet Center**
 
 ---
 
