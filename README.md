@@ -100,4 +100,12 @@ Este repositório serve como **apresentação do projeto**. Ele contém:
 * Links para os repositórios individuais
 * Descrição detalhada de cada camada da arquitetura de dados
 
+---
+
+## 📸 Capturas de Tela
+
+![Painel Principal](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petstore-bi-000.png)
+
+#### - Fitro Região
+![Cadastro Hospedagem](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petstore-bi-001.png)
 
