@@ -73,8 +73,6 @@ O projeto utiliza um conjunto de ferramentas para automação, requisição, tra
 * [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
 * [**plotly**](https://pypi.org/project/plotly/) → visualizações interativas
 * [**streamlit**](https://pypi.org/project/streamlit/) → criação de dashboards web
-* [**matplotlib**](https://pypi.org/project/matplotlib/) → gráficos estáticos
-* [**tabulate**](https://pypi.org/project/tabulate/) → exibição de dados em formato de tabela no terminal ou relatórios  
 
 O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
 ---
