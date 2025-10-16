@@ -45,15 +45,27 @@ graph TD
 
 ---
 
-## 🏪 Redes Analisadas:
+## 📊 Estrutura dos Dados e Metadados:
 
-Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
+Após o processamento dos dados pelo pipeline [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) e seu carregamento no banco **PostgreSQL**, o projeto **petstore-bi** passa a receber as colunas abaixo, que servirão como base para o enriquecimento progressivo com informações analíticas voltadas ao suporte de decisões estratégicas de expansão.
 
-* **Cobasi**
-* **Pet Camp**
-* **Petland**
-* **Petlove**
-* **Petz**
+
+| Coluna                      | Tipo    | Descrição                         | Valores possíveis / Observações             | Unidade | Camada        | Origem              | Última Atualização |
+| --------------------------- | ------- | --------------------------------- | ------------------------------------------- | ------- | ------------- | ------------------- | ------------------ |
+| empresa                     | string  | Nome da rede                      | Petz, Cobasi, Petlove...                    | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| nome                        | string  | Nome da loja                      | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| logradouro                  | string  | Logradouro simplificado           | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| bairro                      | string  | Bairro                            | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| cidade                      | string  | Cidade                            | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| estado                      | string  | Sigla do estado                   | SP, RJ, MG...                               | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| regiao                      | string  | Região da cidade                  | Norte, Sul, Sudeste, Centro-Oeste, Nordeste | -       | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| populacao                   | integer | População estimada da cidade      | Número inteiro                              | pessoas | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| cep                         | string  | CEP normalizado                   | 00000-000                                   | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| latitude                    | float   | Latitude geográfica               | -90 a 90                                    | graus   | Silver / Gold | petstore-etl        | 2025-10-08         |
+| longitude                   | float   | Longitude geográfica              | -180 a 180                                  | graus   | Silver / Gold | petstore-etl        | 2025-10-08         |
+| renda_domiciliar_per_capita | float   | Renda domiciliar média (estadual) | Valores monetários                          | R$      | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| cidade_cod_ibge             | string  | Código IBGE da cidade             | 7 dígitos, conforme IBGE                    | -       | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| data_extracao               | date    | Data da extração do dado          | YYYY-MM-DD                                  | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
 
 ---
 
@@ -73,7 +85,7 @@ O projeto utiliza um conjunto de ferramentas para automação, requisição, tra
 * [**plotly**](https://pypi.org/project/plotly/) → visualizações interativas
 * [**streamlit**](https://pypi.org/project/streamlit/) → criação de dashboards web
 
-O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
+##### O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
 ---
 
 ## 🖥️ Log de Execução:
@@ -89,14 +101,16 @@ Cada etapa gera logs detalhados de execução:
 
 ---
 
-## 🔗 Organização do Portfólio:
+## 🏪 Redes Analisadas:
 
-Este repositório serve como **apresentação do projeto**. Ele contém:
+Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
-* Diagramas do Pipeline
-* Links para os repositórios individuais
-* Descrição detalhada de cada camada da arquitetura de dados
-
+* **Cobasi**
+* **Pet Camp**
+* **Petland**
+* **Petlove**
+* **Petz**
+* 
 ---
 
 ## 📸 Capturas de Tela
