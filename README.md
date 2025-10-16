@@ -54,7 +54,6 @@ Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 * **Petland**
 * **Petlove**
 * **Petz**
-* **Pop Pet Center**
 
 ---
 
