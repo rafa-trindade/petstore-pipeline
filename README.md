@@ -110,13 +110,23 @@ Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 * **Petland**
 * **Petlove**
 * **Petz**
-* 
+
 ---
 
 ## 📸 Capturas de Tela
 
-![Painel Principal](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petstore-bi-000.png)
+#### - Cobasi - Região: Brasil
+![Cobasi](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/cobasi-brasil.png)
 
-#### - Fitro Região
-![Cadastro Hospedagem](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petstore-bi-001.png)
+#### - PetCamp - Região: Sudeste
+![PetCamp](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petcamp-sudeste.png)
+
+#### - Petland - Região: Sul
+![Petland](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petland-sul.png)
+
+#### - Petlove - Estado: SP
+![Petlove](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petlove-sp.png)
+
+#### - Petz - Região: Nordeste
+![Petz](https://github.com/rafa-trindade/petstore-bi/blob/main/docs/petz-nordeste.png)
 
